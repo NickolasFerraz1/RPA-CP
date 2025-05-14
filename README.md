@@ -1,6 +1,10 @@
 # Integrantes
-* Nome 1
-* Nome 2
+* Nickolas Ferraz - RM558458
+* Sandron Oliveira - RM557172
+* Marcos Paolucci - RM554941
+* Paulo Carvalho - RM554562
+* Lorena Bauer - RM555272
+* Herbertt di Franco - RM556640
 
 # Projeto: Web Scraping de produtos 
 
