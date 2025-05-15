@@ -36,16 +36,17 @@ Este projeto tem como objetivo automatizar a coleta de dados de produtos no site
 ## Tecnologias utilizadas
 
 - Python
-- Bibliotecas para scraping (ex: requests, BeautifulSoup, etc.)
+- Bibliotecas para scraping (firecrawl)
 - Pandas para manipulação de dados
-- API ou arquivo para geração de sinônimos
+- API do Chat-GPT para geração de sinônimos
 
 ## Como executar
 
 1. Clone o repositório.
 2. Instale as dependências listadas em `requirements.txt`.
-3. Execute o script principal com uma palavra-chave como argumento.
-4. Verifique o arquivo `.csv` gerado na pasta de saída.
+3. Utilize sua chave API do ChatGPT e do FireCrawl (free).
+4. Execute o script principal (app.py) com uma palavra-chave como argumento.
+5. Verifique o arquivo `.csv` gerado na pasta de saída.
 
 ## Observações
 
