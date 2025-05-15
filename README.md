@@ -36,9 +36,9 @@ Este projeto tem como objetivo automatizar a coleta de dados de produtos no site
 ## Tecnologias utilizadas
 
 - Python
-- Bibliotecas para scraping (FireCrawl)
+- Bibliotecas para scraping - *FireCrawl* foi utilizado, mas alternativas como *BeautifulSoup* também são compatíveis.
 - Pandas para manipulação de dados
-- API do Chat-GPT para geração de sinônimos
+- API do *Chat-GPT* para geração de sinônimos foi a escolha do projeto, porém alternativas como API pública ou arquivo local também são compatíves
 
 ## Como executar
 
