@@ -36,7 +36,7 @@ Este projeto tem como objetivo automatizar a coleta de dados de produtos no site
 ## Tecnologias utilizadas
 
 - Python
-- Bibliotecas para scraping (firecrawl)
+- Bibliotecas para scraping (FireCrawl)
 - Pandas para manipulação de dados
 - API do Chat-GPT para geração de sinônimos
 
