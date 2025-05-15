@@ -16,6 +16,15 @@ firecrawl_app = FirecrawlApp(api_key=FIRECRAWL_API_KEY)
 PASTA_TXT = "textos"
 ARQUIVO_CSV = "dados_mercado_livre.csv"
 
+# 🧹 Limpa a pasta "textos" antes de salvar novos arquivos
+if os.path.exists(PASTA_TXT):
+    for filename in os.listdir(PASTA_TXT):
+        file_path = os.path.join(PASTA_TXT, filename)
+        if os.path.isfile(file_path):
+            os.remove(file_path)
+else:
+    os.makedirs(PASTA_TXT)
+
 # 🔁 Gera sinônimos com GPT-4o
 def gerar_sinonimos_com_gpt4o(palavra_chave):
     prompt = f"Liste sinônimos contextuais em português para a palavra '{palavra_chave}'. Apenas a lista separada por vírgulas."
